@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './document.css'
 
 
@@ -11,9 +11,7 @@ const Document = ({title,content}) => {
         console.log(bottom)
         if(bottom){
             setDisabled(false);
-        } else {
-            setDisabled(true);
-        }
+        } 
     }
     
 
