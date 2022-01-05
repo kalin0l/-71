@@ -22,7 +22,7 @@ const Document = ({title,content}) => {
         <section>
             <div className='title'>{title}</div>
             <div className='content' onScroll={(e) => handleScroll(e)}>{content}</div>
-            <button disabled={disabled}>I agree</button>
+            <button disabled={disabled}>I Agree</button>
         </section>
         </>
     )
